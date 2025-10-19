@@ -1,0 +1,38 @@
+a1,a2,a3,a4,a5,a6,a7,a8,a9,a10=float(input('a1= ')),(input('a2= ')),(input('a3= ')),(input('a4= ')),(input('a5= ')),(input('a6= ')),(input('a7= ')),(input('a8= ')),(input('a9= ')),(input('a10= '))
+def MAXIM(a,b):
+    return(max(a,b))
+def MINIM(a,b):
+    return(min(a,b))
+print(MAXIM(a1,a2))
+print(MINIM(a9,a10))
+
+def Suma():
+    global a1
+    global a2
+    global a3
+    global a4
+    global a5
+    global a6
+    global a7
+    global a8
+    global a9
+    global a10
+return MAXIM(MINIM(a1,a2),MAXIM(a3,a4))+MINIM(MAXIM(a5,a6),MINIM(a7,a8))
+print('S= ',Suma())
+
+def total ():
+    global a1
+    global a2
+    global a3
+    global a4
+    global a5
+    global a6
+    global a7
+    global a8
+    global a9
+    global a10
+return MINIM(a1,a2)+MINIM(a3,a4)+MINIM(a5,a6)+MINIM(a7,a8)+MINIM(a9,a10)+MAXIM(a1,a2)+MAXIM(a3,a4)+MAXIM(a5,a6)+MAXIM(a7,a8)+MAXIM(a9,a10)
+print('T=',Total())
+
+if((a+b>c)and(a+c>b)and(b+c>a)):
+return 0.5*math.sqrt(((2*(a**2))+(2*(b**2))+c**2)
